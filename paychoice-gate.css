@@ -1,0 +1,137 @@
+/*
+Author: Serere Jegede
+Date: 13 March 2019
+*/
+@font-face { 
+  font-family: Geomanist;
+   src: url('assets/fonts/geomanist-regular-webfont.ttf'); 
+}
+
+@font-face { 
+  font-family: Geomanist;
+  font-style: italic;
+  src: url('assets/fonts/geomanist-regular-italic-webfont.ttf');
+}
+
+div {
+  /* border: 1px solid black; */
+  font-family: Geomanist;
+  border-radius: 1%;
+  /* color: rgb(175, 170, 170); */
+}
+
+.payment-box {
+  width: 500px;
+  margin: 50px auto;
+  padding: 45px 50px;
+  background-color: #F5F5F5;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border: 5px dashed;
+}
+
+.logo > img {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.amount1 {
+  color: #91BA82;
+  font-size: 40pt;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.amount2 {
+  color: #91BA82;
+  font-size: 25pt;
+}
+
+.options {
+  background-color: #F5F5F5;
+  display: inline-block;
+}
+
+.hoverable:hover {
+  cursor: pointer !important;
+}
+
+.tabs {
+  display: inline-block;
+}
+
+.shadow {
+  -webkit-box-shadow: -1px 3px 22px -1px rgba(161,155,161,1);
+  -moz-box-shadow: -1px 3px 22px -1px rgba(161,155,161,1);
+  box-shadow: -1px 3px 22px -1px rgba(161,155,161,1);
+}
+
+.active-tab {
+  color: white !important;
+  background-color: rgb(192, 187, 192);
+}
+
+.tab-one {
+  border-radius: 5px 0 0 5px;
+  border: 1px solid rgba(161,155,161,1);
+  border-right: 0;
+}
+
+.tab-one:hover {
+  -webkit-box-shadow: -1px 3px 22px -1px rgba(161,155,161,1);
+  -moz-box-shadow: -1px 3px 22px -1px rgba(161,155,161,1);
+  box-shadow: -1px 3px 22px -1px rgba(161,155,161,1);
+}
+
+.tab-two {
+  border-radius: 0 5px 5px 0;
+  border: 1px solid rgba(161,155,161,1);
+  border-left: 0;
+}
+
+.tab-two:hover {
+  -webkit-box-shadow: -1px 3px 22px -1px rgba(161,155,161,1);
+  -moz-box-shadow: -1px 3px 22px -1px rgba(161,155,161,1);
+  box-shadow: -1px 3px 22px -1px rgba(161,155,161,1);
+}
+
+/* To remove bootstrap form-control focus */
+input[type="text"], textarea, select, button:focus {
+  outline: none;
+  box-shadow:none !important;
+  border:1px solid #ccc !important;
+  }
+
+  .form label {
+    text-align: left !important;
+    margin-bottom: 0;
+    padding-left: .25rem !important;
+  }
+
+  .form input::placeholder {
+    padding-left: .25rem;
+    color: rgb(211, 214, 209)
+  }
+
+  .form .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  button[disabled]:hover, input[disabled]:hover {
+    cursor: not-allowed;
+  }
+
+  .otp {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .normal-text {
+    font-size: 85%;
+  }
