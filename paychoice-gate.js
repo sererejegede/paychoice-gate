@@ -3,7 +3,7 @@ window.onload = () => {
     el: '#paychoice-gate',
     data: {
       current_tab: 'tab-one',
-      current_stage: 'three'
+      current_stage: 'one'
     },
     computed: {
       
